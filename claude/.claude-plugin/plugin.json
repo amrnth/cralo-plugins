@@ -1,0 +1,12 @@
+{
+  "name": "cralo",
+  "displayName": "Cralo",
+  "version": "0.1.0",
+  "description": "Prepaid Cralo tools for Claude via remote MCP",
+  "author": {
+    "name": "Cralo",
+    "url": "https://cralo.ai"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://cralo.ai"
+}

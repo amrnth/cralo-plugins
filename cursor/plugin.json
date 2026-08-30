@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cralo",
+  "description": "Prepaid Cralo tools via remote MCP",
+  "version": "0.1.0",
+  "author": {
+    "name": "Cralo",
+    "url": "https://cralo.ai"
+  },
+  "homepage": "https://cralo.ai",
+  "license": "UNLICENSED"
+}

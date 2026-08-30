@@ -1,0 +1,37 @@
+{
+  "name": "cralo",
+  "version": "0.1.0",
+  "description": "Cralo AI tools for ChatGPT via remote MCP",
+  "author": {
+    "name": "Cralo",
+    "url": "https://cralo.ai"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://cralo.ai",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Cralo AI",
+    "developerName": "Cralo",
+    "category": "Developer Tools",
+    "shortDescription": "Search, scrape, and more.",
+    "longDescription": "Cralo AI gives ChatGPT a live catalog of external tools available through an existing Cralo entitlement. Inspect each tool's schema and USD price before calling it, track asynchronous invocations, and check your balance. This app cannot purchase, transfer, or refund credits.",
+    "websiteURL": "https://cralo.ai",
+    "supportURL": "https://cralo.ai/support",
+    "privacyPolicyURL": "https://cralo.ai/privacy",
+    "termsOfServiceURL": "https://cralo.ai/terms",
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "capabilities": [
+      "Search a live catalog of external tools",
+      "Describe schema and USD price before calling",
+      "Run a catalog tool with a quote-based price guard"
+    ],
+    "defaultPrompt": [
+      "List Cralo tools I can call, then show my prepaid credit balance.",
+      "Search Cralo for page extraction, describe page.extract, and report its USD price.",
+      "Call cralo.ping through Cralo and report the invocation id and remaining balance."
+    ]
+  }
+}
